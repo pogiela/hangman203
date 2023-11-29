@@ -1,21 +1,19 @@
 from curses.ascii import isalpha
 import random
 
-def generate_random_word():
-    word_list = ['banana', 'apple', 'pineaple', 'melon', 'grapefruit']
-    word = random.choice(word_list)
-    return word
+# Task 1
+word_list = ['banana', 'apple', 'pineaple', 'melon', 'grapefruit']
+print(word_list)
 
-def get_user_input():
-    guess = input('Enter a single letter: ')
+# Task 2
+word = random.choice(word_list)
+print(word)
 
-    if len(guess) == 1 and guess.isalpha():
-        print('Good guess!')
-    else:
-        print('Oops! That is not a valid input.')
-        get_user_input()
-        
-random_word = generate_random_word()
-print(random_word)
+# Task 3
+guess = input('Enter a single letter: ')
 
-get_user_input()
+# Task 4
+if len(guess) == 1 and guess.isalpha():
+    print('Good guess!')
+else:
+    print('Oops! That is not a valid input.')
