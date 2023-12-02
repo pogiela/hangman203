@@ -5,8 +5,10 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Built With
 
-- [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
+Version:
+- Python 3.12.0
 
 ## Installation instructions:
 
@@ -17,15 +19,32 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Usage instructions:
 
-1. Enter **hangman** folder:
+1. Enter *hangman* folder:
     ```
-    cd hangman
+    cd ./hangman203/hangman/
     ```
 2. To run the programme enter command:
     ```
-    python3 milestone_3.py
+    python3 milestone_4.py
     ```
 
 ## File structure of the project:
+```
+.
+├── hangman                 # Project files
+│   ├── hangman_Template.py # Table of contents
+│   ├── milestone_2.py      # Tasks for Milestone 2
+│   ├── milestone_3.py      # Tasks for Milestone 3
+│   ├── milestone_4.py      # Tasks for Milestone 4
+│   └── ...
+└── README.md               # This file
+```
 
 ## License information:
+Distributed under the MIT License. 
+
+## Contact
+Piotr Ogiela - piotrogiela@gmail.com
+
+Project Link: https://github.com/pogiela/hangman203.git
+
