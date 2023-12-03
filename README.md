@@ -33,7 +33,6 @@ Version:
 ```
 .
 ├── hangman                 # Project files
-│   ├── hangman_Template.py # Table of contents
 │   ├── milestone_2.py      # Tasks for Milestone 2
 │   ├── milestone_3.py      # Tasks for Milestone 3
 │   ├── milestone_4.py      # Tasks for Milestone 4
